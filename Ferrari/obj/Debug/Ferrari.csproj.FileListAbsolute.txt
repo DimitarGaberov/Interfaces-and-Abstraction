@@ -1,0 +1,5 @@
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Ferrari\bin\Debug\Ferrari.exe.config
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Ferrari\bin\Debug\Ferrari.exe
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Ferrari\bin\Debug\Ferrari.pdb
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Ferrari\obj\Debug\Ferrari.exe
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Ferrari\obj\Debug\Ferrari.pdb

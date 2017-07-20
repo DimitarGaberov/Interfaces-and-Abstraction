@@ -1,0 +1,6 @@
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Telephony\bin\Debug\Telephony.exe.config
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Telephony\bin\Debug\Telephony.exe
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Telephony\bin\Debug\Telephony.pdb
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Telephony\obj\Debug\Telephony.exe
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Telephony\obj\Debug\Telephony.pdb
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Telephony\obj\Debug\Telephony.csprojResolveAssemblyReference.cache

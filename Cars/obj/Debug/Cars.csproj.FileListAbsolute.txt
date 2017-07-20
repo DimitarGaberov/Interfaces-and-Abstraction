@@ -1,0 +1,6 @@
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Cars\bin\Debug\Cars.exe.config
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Cars\bin\Debug\Cars.exe
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Cars\bin\Debug\Cars.pdb
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Cars\obj\Debug\Cars.csprojResolveAssemblyReference.cache
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Cars\obj\Debug\Cars.exe
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Cars\obj\Debug\Cars.pdb

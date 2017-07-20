@@ -1,0 +1,6 @@
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Border Control\bin\Debug\Border Control.exe.config
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Border Control\bin\Debug\Border Control.exe
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Border Control\bin\Debug\Border Control.pdb
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Border Control\obj\Debug\Border Control.csprojResolveAssemblyReference.cache
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Border Control\obj\Debug\Border Control.exe
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Border Control\obj\Debug\Border Control.pdb

@@ -1,0 +1,5 @@
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Define an Interface IPerson\bin\Debug\Define an Interface IPerson.exe.config
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Define an Interface IPerson\bin\Debug\Define an Interface IPerson.exe
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Define an Interface IPerson\bin\Debug\Define an Interface IPerson.pdb
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Define an Interface IPerson\obj\Debug\Define an Interface IPerson.exe
+c:\users\dimit\documents\visual studio 2017\Projects\Abstraction\Define an Interface IPerson\obj\Debug\Define an Interface IPerson.pdb
