@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public interface ICitizen : IIdentifiable, IBirthable, IBuyer
+public interface IRebel : IBuyer
 {
     string Name { get; }
     int Age { get; }
+    string Group { get; }
 }

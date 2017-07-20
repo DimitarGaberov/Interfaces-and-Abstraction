@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class Citizen : ICitizen, IIdentifiable, IBirthable
+public class Citizen : ICitizen, IIdentifiable, IBirthable, IBuyer
 {
     private string name;
     private int age;
     private string id;
     private string birthdate;
+    private int food;
 
     public Citizen(string name, int age, string id, string birthdate)
     {
@@ -17,6 +18,7 @@ public class Citizen : ICitizen, IIdentifiable, IBirthable
         this.Age = age;
         this.Id = id;
         this.Birthdate = birthdate;
+        this.Food = 0;
     }
 
     public string Name
@@ -41,5 +43,16 @@ public class Citizen : ICitizen, IIdentifiable, IBirthable
     {
         get { return this.birthdate; }
         private set { this.birthdate = value; }
+    }
+
+    public int Food
+    {
+        get { return this.food; }
+        set { this.food = value; }
+    }
+
+    public void BuyFood()
+    {
+        this.Food += 10;
     }
 }

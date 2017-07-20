@@ -1,0 +1,6 @@
+C:\Users\dimit\documents\visual studio 2017\Projects\Abstraction\MilitaryElite\bin\Debug\MilitaryElite.exe.config
+C:\Users\dimit\documents\visual studio 2017\Projects\Abstraction\MilitaryElite\bin\Debug\MilitaryElite.exe
+C:\Users\dimit\documents\visual studio 2017\Projects\Abstraction\MilitaryElite\bin\Debug\MilitaryElite.pdb
+C:\Users\dimit\documents\visual studio 2017\Projects\Abstraction\MilitaryElite\obj\Debug\MilitaryElite.csprojResolveAssemblyReference.cache
+C:\Users\dimit\documents\visual studio 2017\Projects\Abstraction\MilitaryElite\obj\Debug\MilitaryElite.exe
+C:\Users\dimit\documents\visual studio 2017\Projects\Abstraction\MilitaryElite\obj\Debug\MilitaryElite.pdb

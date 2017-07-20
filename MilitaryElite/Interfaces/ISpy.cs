@@ -4,8 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public interface ICitizen : IIdentifiable, IBirthable, IBuyer
+namespace MilitaryElite.Interfaces
 {
-    string Name { get; }
-    int Age { get; }
+    public interface ISpy : ISoldier
+    {
+        int CodeNumber { get; }
+    }
 }
