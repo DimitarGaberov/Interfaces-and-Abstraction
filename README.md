@@ -1,4 +1,4 @@
-# Interfaces-and-Abstraction
+﻿# Interfaces-and-Abstraction
 
 1. Shapes
 Build hierarchy of interfaces and classes:
@@ -74,3 +74,60 @@ The input comes from the console. Every commands’ parameters before the comman
 Birthday Celebrations
 It is a well known fact that people celebrate birthdays, it is also known that some people also celebrate their pets birthdays. Extend the program from your last task to add birthdates to citizens and include a class Pet, pets have a name and a birthdate. Encompass repeated functionality into interfaces and implement them in your classes. 
 You will receive from the console an unknown amount of lines. Until the command “End” is received, each line will contain information in one of the following formats “Citizen <name> <age> <id> <birthdate>” for citizens, “Robot <model> <id>” for robots or “Pet <name> <birthdate>” for pets. After the “End” command on the next line you will receive a single number representing a specific year, your task is to print all birthdates (of both citizens and pets) in that year in the format day/month/year (the order of printing doesn’t matter).
+
+Food Shortage
+Your totalitarian dystopian society suffers a shortage of food, so many rebels appear. Extend the code from your previous task with new functionality to solve this task.
+Define a class Rebel which has a name, age and group (string), names are unique - there will never be 2 Rebels/Citizens or a Rebel and Citizen with the same name. Define an interface IBuyer which defines a method BuyFood() and a integer property Food. Implement the IBuyer interface in the Citizen and Rebel class, both Rebels and Citizens start with 0 food, when a Rebel buys food his Food increases by 5, when a Citizen buys food his Food increases by 10.
+On the first line of the input you will receive an integer N - the number of people, on each of the next N lines you will receive information in one of the following formats “<name> <age> <id> <birthdate>” for a Citizen or “<name> <age><group>” for a Rebel. After the N lines until the command “End” is received, you will receive names of people who bought food, each on a new line. Note that not all names may be valid, in case of an incorrect name - nothing should happen.
+
+Military Elite
+Create the following class hierarchy:
+Soldier – general class for soldiers, holding id, first name and last name.
+Private – lowest base soldier type, holding the field salary(double). 
+LeutenantGeneral – holds a set of Privates under his command.
+SpecialisedSoldier – general class for all specialised soldiers – holds the corps of the soldier. The corps can only be one of the following: Airforces or Marines.
+Engineer – holds a set of repairs. A repair holds a part name and hours worked(int).
+Commando – holds a set of missions. A mission holds code name and a state (inProgress or Finished). A mission can be finished through the method CompleteMission().
+Spy – holds the code number of the spy (int).
+Extract interfaces for each class. (e.g. ISoldier, IPrivate, ILeutenantGeneral, etc.) The interfaces should hold their public properties and methods (e.g. Isoldier should hold id, first name and last name). Each class should implement its respective interface. Validate the input where necessary (corps, mission state) - input should match exactly one of the required values, otherwise it should be treated as invalid. In case of invalid corps the entire line should be skipped, in case of an invalid mission state only the mission should be skipped. 
+You will receive from the console an unknown amount of lines containing information about soldiers until the command “End” is received. The information will be in one of the following formats:
+Private: “Private <id> <firstName> <lastName> <salary>”
+LeutenantGeneral: “LeutenantGeneral <id> <firstName> <lastName> <salary> <private1Id> <private2Id> … <privateNId>” where privateXId will always be an Id of a private already received through the input.
+Engineer: “Engineer <id> <firstName> <lastName> <salary> <corps> <repair1Part> <repair1Hours> … <repairNPart> <repairNHours>” where repairXPart is the name of a repaired part and repairXHours the hours it took to repair it (the two parameters will always come paired). 
+Commando: “Commando <id> <firstName> <lastName> <salary> <corps> <mission1CodeName>  <mission1state> … <missionNCodeName> <missionNstate>” a missions code name, description and state will always come together.
+Spy: “Spy <id> <firstName> <lastName> <codeNumber>”
+Define proper constructors. Avoid code duplication through abstraction. Override ToString() in all classes to print detailed information about the object.
+Privates:
+Name: <firstName> <lastName> Id: <id> Salary: <salary>
+Spy:
+Name: <firstName> <lastName> Id: <id>
+Code Number: <codeNumber>
+LeutenantGeneral:
+Name: <firstName> <lastName> Id: <id> Salary: <salary>
+Privates:
+  <private1 ToString()>
+  <private2 ToString()>
+  …
+  <privateN ToString()>
+Engineer:
+Name: <firstName> <lastName> Id: <id> Salary: <salary>
+Corps: <corps>
+Repairs:
+  <repair1 ToString()>
+  <repair2 ToString()>
+  …
+  <repairN ToString()>
+Commando:
+Name: <firstName> <lastName> Id: <id> Salary: <salary>
+Corps: <corps>
+Missions:
+  <mission1 ToString()>
+  <mission2 ToString()>
+  …
+  <missionN ToString()>
+Repair:
+Part Name: <partName> Hours Worked: <hoursWorked>
+Mission:
+Code Name: <codeName> State: <state>
+NOTE: Salary should be printed rounded to two decimal places after the separator.
+
